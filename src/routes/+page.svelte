@@ -1,7 +1,7 @@
 <script>
     let searchTerm = '';
     function handleFormSubmit() {
-        const url = `/pokemon/${searchTerm}`;
+        const url = `/pokemon/${searchTerm.toLowerCase()}`;
         window.location.href = url;
     }
 </script>
